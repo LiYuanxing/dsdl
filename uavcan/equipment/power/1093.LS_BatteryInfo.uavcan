@@ -1,0 +1,20 @@
+uint8 battery_id  
+float16 temperature1             # ['C]
+float16 temperature2             # ['C]
+float16 temperature3             # ['C]
+
+float16 	voltage_in_side      # [Volt]
+float16 	voltage_out_side     # [Volt]
+float16[12] voltage_cell         # [mVolt]
+
+float16 current                  # [Ampere]
+
+uint32	ID
+
+uint16	use_count
+
+float16 design_mah
+float16 real_mah
+int8	remain_percent
+
+uint8[<32] model_name           # Battery model name
