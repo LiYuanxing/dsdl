@@ -9,12 +9,14 @@ float16[12] voltage_cell         # [mVolt]
 
 float16 current                  # [Ampere]
 
-uint32	ID
+uint8[14]	ID
 
 uint16	use_count
 
 float16 design_mah
 float16 real_mah
 int8	remain_percent
+
+uint16	error_count
 
 uint8[<32] model_name           # Battery model name
