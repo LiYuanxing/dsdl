@@ -19,4 +19,6 @@ int8	remain_percent
 
 uint16	error_count
 
+float16 soft_version
+
 uint8[<32] model_name           # Battery model name
